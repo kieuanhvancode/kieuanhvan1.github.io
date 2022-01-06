@@ -125,7 +125,11 @@ footer{
 	}
 	#info_container{
 	flex-wrap: wrap;
-				}
+	}
+	#My_title{
+		padding=80px;
+		font-size: 30px;
+	}
 }
 
 
