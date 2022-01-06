@@ -119,9 +119,6 @@ footer{
 	.img_item {
 		flex: 50%;
 	}
-	#font_side{
-		flex-wrap: wrap;
-	}
 	#info_container{
 	flex-wrap: wrap;
 				}
