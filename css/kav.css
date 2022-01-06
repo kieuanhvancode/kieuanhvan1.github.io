@@ -110,7 +110,7 @@ footer{
 }
 #info_container{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
 @media(max-width:  800px){
@@ -120,6 +120,11 @@ footer{
 	#font_side{
 		flex-wrap: wrap;
 	}
+	#info_container{
+	flex-wrap: wrap;
+				}
 }
+
+
 
 
