@@ -61,7 +61,7 @@ div > p > a:hover{
 	color: #00f539;
 }
 #font_side{
-	font-size: 30px;
+	font-size: 120%;
 }
 /*trang chu*/
 
@@ -115,13 +115,20 @@ footer{
 	flex-wrap: nowrap;
 }
 
-@media(max-width:  800px){
+@media(max-width: 800px){
 	.img_item {
 		flex: 50%;
+	}
+	#font_side{
+		flex-wrap: wrap;
+		font-size: 80%;
 	}
 	#info_container{
 	flex-wrap: wrap;
 				}
 }
+
+
+
 
 
